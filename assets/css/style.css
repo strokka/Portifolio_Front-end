@@ -1,0 +1,147 @@
+body,
+html {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+
+
+}
+
+/* INICIO */
+
+header {
+    display: flex;
+    background-color: #160D2F;
+}
+
+.icon img {
+    width: 500px;
+    padding: 30px;
+}
+
+
+.container {
+    padding: 10px 110px;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+.text {
+    padding: 30px;
+}
+
+.text h2 {
+    font-size: 56px;
+    font-weight: bold;
+    margin: 0px;
+    color: #FAFAFA;
+
+}
+
+.text p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #E0BBE5;
+
+}
+
+.btt {
+    display: flex;
+}
+
+button img {
+    width: 40px;
+    padding-right: 20px;
+}
+
+button {
+    margin-right: 15px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 210px;
+    height: 55px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: #ffffff;
+    color: #693A71;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.411);
+    font-weight: 700;
+}
+
+button img {
+    width: 30px;
+}
+
+button:hover {
+    background-color: #d2b0d6;
+
+}
+
+/* Sobre mim */
+
+
+.container-sobre {
+    position: static;
+    background-color: #ffffff;
+    padding: 10px 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.icon-sobre img {
+    width: 400px;
+    padding: 50px 0px 50px 0px;
+}
+
+.text-sobre {
+    padding: 50px;
+
+}
+
+.text-sobre h1 {
+    font-size: 40px;
+    color: #83498D;
+    font-weight: 700;
+}
+
+.text-sobre p {
+    font-size: 17px;
+    font-weight: 300;
+    color: #160D2F;
+}
+
+/* Habilidades */
+
+.icons-hab {
+    display: flex;
+}
+
+.icons-hab img {
+    width: 40px;
+    margin: 10px;
+}
+
+/* FOOTER */
+
+
+.footer {
+    padding: 20px 110px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: #160D2F;
+    color: #ffffff;
+    justify-content: center;
+    bottom: 0;
+}
