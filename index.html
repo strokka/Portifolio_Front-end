@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Portifólio</title>
 </head>
 
@@ -15,11 +15,13 @@
     <header>
         <div class="container">
             <div class="text">
+                <div data-aos="fade-up">
                 <h2>Olá,<br>
                     eu me chamo Sara :)</h2>
                 <p>Front-end Developer | Designer</p>
+                </div>
 
-                <div class="btt">
+                <div class="btt" data-aos="fade-up">
                     <button><img src="assets/img/github (1).png"><a
                             href="https://github.com/strokka"></a>GitHub</button>
                     <button><img src="assets/img/linkedin.png"><a
@@ -40,7 +42,7 @@
             <div class="icon-sobre">
                 <img src="assets/img/Data extraction.gif">
             </div>
-            <div class="text-sobre">
+            <div class="text-sobre" data-aos="fade-down">
                 <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
                     classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
                     professor at Hampden-Sydney College in Virginia,
@@ -54,7 +56,7 @@
                 </p>
                 <br>
                 <p>Atualmente tendo dominio sobre:</p>
-                <div class="icons-hab">
+                <div class="icons-hab" data-aos="fade-down" >
                     <img src="assets/img/html-5.png">
                     <img src="assets/img/css-3.png">
                     <img src="assets/img/js.png">
@@ -70,11 +72,15 @@
         <div class="footer">
             <div class="contato">
                 <h4>Projetado e codificado por Sara do Carmo</h4>
-                <p>c.sararubia@gmail.com</p>
             </div>
     </footer>
 
-
 </body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 1000,
+    });
+</script>
 
 </html>

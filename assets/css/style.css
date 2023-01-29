@@ -41,11 +41,10 @@ header {
 
 }
 
-.text p {
+p{
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 700;
     color: #E0BBE5;
-
 }
 
 .btt {
