@@ -7,80 +7,128 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <title>Portifólio</title>
+    <title>Portifolio</title>
+    <script defer src="assets/js/app.js"></script>
 </head>
 
 <body>
-
     <header>
-        <div class="container">
-            <div class="text">
-                <div data-aos="fade-up">
-                <h2>Olá,<br>
-                    eu me chamo Sara :)</h2>
-                <p>Front-end Developer | Designer</p>
-                </div>
-
-                <div class="btt" data-aos="fade-up">
-                    <button><img src="assets/img/github (1).png"><a
-                            href="https://github.com/strokka"></a>GitHub</button>
-                    <button><img src="assets/img/linkedin.png"><a
-                            href="https://www.linkedin.com/in/sara-do-carmo-6392aa216"></a>LinkedIn</button>
-
-
-                </div>
-            </div>
-            <div class="icon">
-                <div>
-                    <img src="assets/img/Lo-fi concept.gif">
-                </div>
-            </div>
+        <ul class="ul">
+            <li><a  href="#">Inicio</a></li>
+            <li><a href="#">Projetos</a></li>
+            <li><a href="#">Sobre mim</a></li>
+            <li><a href="#">Contate-me</a></li>
+        </ul>
     </header>
 
-    <main class="container-main">
-        <div class="container-sobre">
-            <div class="icon-sobre">
-                <img src="assets/img/Data extraction.gif">
-            </div>
-            <div class="text-sobre" data-aos="fade-down">
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                    classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
-                    professor at Hampden-Sydney College in Virginia,
-                    <br>
-                    <br>looked up one of the more obscure Latin words,
-                    consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical
-                    literature, discovered the undoubtalooked up one of the more obscure Latin words,
-                    consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical
-                    literature, discovered the undoubtable source of the more obscure Latin words,
-                    consectetur, from a Lorem Ipsum
-                </p>
-                <br>
-                <p>Atualmente tendo dominio sobre:</p>
-                <div class="icons-hab" data-aos="fade-down" >
-                    <img src="assets/img/html-5.png">
-                    <img src="assets/img/css-3.png">
-                    <img src="assets/img/js.png">
-                    <img src="assets/img/figma.png">
-                    <img src="assets/img/canva.png">
-                    <img src="assets/img/illustrator.png">
+    <section class="inicio" data-aos="fade-up">
+        <div class="inicio2">
+            <div class="info" data-aos="fade-up">
+                <h1>Bem Vindo :)</h1>
+                <h3>Sou Desenvolvedora Front-end & Designer</h3>
+                <div class="btt">
+                    <button class="button"> <i class="fa-brands fa-linkedin-in"></i>GitHub</button>
+                    <button class="button1"> <i class="fa-brands fa-github-alt"></i></i>LinkedIn</button>
                 </div>
             </div>
         </div>
-    </main>
+        <div class="imagem">
+            <img src="img/Tech Life - Blockchain (1).png">
+        </div>
+        </div>
+    </section>
 
-    <footer>
-        <div class="footer">
-            <div class="contato">
-                <h4>Projetado e codificado por Sara do Carmo</h4>
+
+    <div class="sobre" data-aos="fade-up">
+        <div class="info1">
+            <h3>Sobre mim</h3>
+            <p>Olá! Eu me chamo Sara, tenho 17 anos e comecei a estudar programação em 2022. Desde então, tenho me
+                dedicado à área de front-end, que é onde encontro minha paixão por desenvolver interfaces de usuário
+                intuitivas e atraentes. Atualmente, me dedico a projetos pessoais para aprimorar minhas habilidades e
+                adquirir novos conhecimentos.<br> Possuo habilidades em várias tecnologias, como Javascript, React JS,
+                Vue
+                JS, HTML e CSS, e sempre busco estar atualizado sobre as últimas tendências e práticas recomendadas.
+                Estou sempre em busca de novas oportunidades para aprimorar minhas habilidades de desenvolvedor
+                front-end e expandir meu conhecimento na área.</p>
+        </div>
+
+        <div class="container">
+            <div class="skills">
+                <div class="details">
+                    <span>HTML</span>
+                </div>
+                <div class="bar">
+                    <div id="html-bar"></div>
+                </div>
             </div>
-    </footer>
+            <div class="skills">
+                <div class="details">
+                    <span>CSS</span>
+                </div>
+                <div class="bar">
+                    <div id="css-bar"></div>
+                </div>
+            </div>
+            <div class="skills">
+                <div class="details">
+                    <span>Javascript</span>
+                </div>
+                <div class="bar">
+                    <div id="js-bar"></div>
+                </div>
+            </div>
+
+            <div class="skills">
+                <div class="details">
+                    <span>Vue.js</span>
+                </div>
+                <div class="bar">
+                    <div id="vue-bar"></div>
+                </div>
+            </div>
+
+            <div class="skills">
+                <div class="details">
+                    <span>React.js</span>
+                </div>
+                <div class="bar">
+                    <div id="react-bar"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="formulario" data-aos="fade-up">
+
+        <form class="form" action="https://formsubmit.co/saradocarmo8@gmail.com" method="POST" data-form>
+            <h3>Contate-me</h3>
+            <p>Se desejar comunicar algo ou apresentar uma proposta de trabalho,<br> este formulário está disponível
+                para tal finalidade.🙂</p>
+
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" required />
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" required />
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" required></textarea>
+            <button type="submit" data-button>Enviar</button>
+        </form>
+
+        <div class="maps">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d457980.6000952134!2d-49.24376836669045!3d-26.26252546179582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dea3f39db1ab37%3A0xbc4b989df161e9fa!2sJoinville%20-%20SC!5e0!3m2!1spt-BR!2sbr!4v1680399694242!5m2!1spt-BR!2sbr"
+                width="250" height="250" style="border:0; border-radius: 10%;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
 
 </body>
+
+<script src="https://kit.fontawesome.com/c263a3f135.js" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
     AOS.init({
         duration: 1000,
     });
 </script>
-
 </html>
