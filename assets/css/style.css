@@ -108,6 +108,10 @@ button:hover{
 
 }
 
+.btt{
+    display: flex;
+}
+
 button>i {
     padding-right: 15px;
 }
