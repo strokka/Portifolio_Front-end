@@ -227,6 +227,45 @@ h2{
     }
 } 
 
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: 200px;
+    border:rgb(0, 0, 0) solid 1px;
+    margin: 20px 0px;
+}
+
+.boxs{
+    display: flex;
+}
+
+.box>img{
+    padding: 20px;
+    width: 250px;
+    height: 100px;
+}
+
+.projetos{
+    padding: 120px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.box{
+    background-color: rgba(105, 105, 105, 0.473);
+    border-radius: 30px;
+    color: #ffffff;
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.box>p{
+    margin: 0px;
+    padding: 10px;
+}
+
 iframe{
     padding: 10px;
 }
@@ -238,16 +277,28 @@ iframe{
     flex-wrap: wrap;
     flex-direction: row;
     padding: 40px;
+    margin-top: 10px;
+}
+
+.form>h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.form>p{
+    font-size: 15px;
 }
 
 .form { 
-    font-size: 10px;
     display: grid;
     padding: 10px;
-    width: 700px;
+    width: 500px;
     justify-content: flex-start;
   }
   
+  .form label{
+    padding: 5px 0px;
+  }
   
   .form label,
   .form input,
